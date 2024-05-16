@@ -3,6 +3,7 @@ const bodyParser = require('body-parser');
 const app = express();
 const adminRouter = require("./routes/admin")
 const userRouter = require("./routes/user");
+const JWT_TOKEN = "sailesh123"
 
 // Middleware for parsing request bodies
 app.use(bodyParser.json());
