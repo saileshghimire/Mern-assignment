@@ -3,7 +3,7 @@ const bodyParser = require('body-parser');
 const app = express();
 const adminRouter = require("./routes/admin")
 const userRouter = require("./routes/user");
-const JWT_SECRET = "sailesh123"
+
 
 // Middleware for parsing request bodies
 app.use(bodyParser.json());
@@ -15,4 +15,5 @@ app.listen(PORT, () => {
     console.log(`Server is running on port ${PORT}`);
 });
 
-module.export = JWT_SECRET
+
+    
