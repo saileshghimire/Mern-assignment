@@ -8,8 +8,8 @@ function App() {
     <>
       {/* <Assignment1 /> */}
       <hr />
-      <Assignment2 />
-      {/* <Assignment3 /> */}
+      {/* <Assignment2 /> */}
+      <Assignment3 />
     </>
   )
 }
