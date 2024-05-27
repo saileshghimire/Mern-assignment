@@ -26,6 +26,7 @@ export function Assignment2() {
 
     return <div>
         <input type="text" onChange={(e) => {
+            console.log(sentences.length);
             setFilter(e.target.value)
         }}></input>
         {filteredSentences.map(word => <div>
