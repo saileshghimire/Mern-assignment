@@ -4,6 +4,7 @@ import { useMemo, useState } from "react";
 // Use useMemo to ensure that the calculation is only recomputed when the input changes, not on every render.
 
 export function Assignment1() {
+    console.log("Assignment 1 Rendered");
     const [input, setInput] = useState(0);
     // Your solution starts here
     const expensiveValue = useMemo(() => {
